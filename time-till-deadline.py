@@ -9,4 +9,4 @@ deadline = input_list[1]
 deadline_date = datetime.strptime(deadline, "%d.%m.%Y")
 today_date = datetime.today()
 time_till = deadline_date - today_date
-print(f"Time remaining for your goal {goal} is: {time_till.days} days")
+print(f"Time remaining for your goal {goal}: {time_till.days} days")
